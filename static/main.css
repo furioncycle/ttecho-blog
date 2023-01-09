@@ -1,0 +1,42 @@
+.pull-xs-right{
+  float: right !important;
+}
+
+.nav {
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none;
+}
+
+ul {
+  margin-top: 0;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left:15px; 
+  padding-right:15px;
+}
+
+.navbar {
+  position: relative;
+  padding: .5rem 1rem;
+  border-radius: .25rem;
+  background-color: white;
+}
+
+.navbar-nav .nav-item {float: left;}
+.navbar-nav .nav-item + .nav-item {
+  margin-left: 1rem;
+}
+
+.navbar-brand {
+  font-family: titillium web, sans-serif;
+  font-size: 1.5rem !important;
+  padding-top: 0 !important;
+  margin-right: 2rem !important;
+  color: #5cb85c !important;
+  float: left;
+  padding-bottom: .25rem;
+}
